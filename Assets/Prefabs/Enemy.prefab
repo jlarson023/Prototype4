@@ -125,8 +125,9 @@ GameObject:
   - component: {fileID: 5224745585605180780}
   - component: {fileID: 5695011808032856730}
   - component: {fileID: 5695011808032856729}
+  - component: {fileID: 8749303488285171699}
   m_Layer: 0
-  m_Name: SpikeBall
+  m_Name: Enemy
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -172,9 +173,23 @@ SphereCollider:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4884671395368871894}
-  m_Material: {fileID: 0}
+  m_Material: {fileID: 13400000, guid: 458b1202f25877746989cdbc262d00e8, type: 2}
   m_IsTrigger: 0
   m_Enabled: 1
   serializedVersion: 2
   m_Radius: 1.3033653
   m_Center: {x: 0.00961059, y: 0.05497544, z: 0.0035009605}
+--- !u!114 &8749303488285171699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4884671395368871894}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 16837ac0778199a43949c14c69af06b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  speed: 1
+  player: {fileID: 0}
