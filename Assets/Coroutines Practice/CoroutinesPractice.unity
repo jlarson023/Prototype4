@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.18028352, g: 0.22571376, b: 0.30692244, a: 1}
+  m_IndirectSpecularColor: {r: 0.18028378, g: 0.22571412, b: 0.30692285, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -156,9 +156,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3cbf375a07648954391c0a15f7a9253d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultMaterial: {fileID: 0}
-  newMaterial: {fileID: 0}
-  duration: 0
+  defaultMaterial: {fileID: 2100000, guid: dd32fb5b2af7b9544a27ff0361722f46, type: 2}
+  newMaterial: {fileID: 2100000, guid: 40d01300475752c439729822c65ec2f1, type: 2}
+  duration: 2
 --- !u!54 &226530923
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -789,7 +789,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 0
+  m_Constraints: 80
   m_CollisionDetection: 0
 --- !u!114 &1760873622
 MonoBehaviour:
@@ -803,13 +803,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 66f197a13ee071640adfd018ee998472, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveSpeed: 0
-  turnSpeed: 0
-  jumpForce: 0
+  moveSpeed: 7
+  turnSpeed: 130
+  jumpForce: 10
   isOnGround: 1
-  projectile: {fileID: 0}
-  shootDelay: 0
-  spawnPoint: {fileID: 0}
+  projectile: {fileID: 3907469147524429392, guid: 2f83bff35d03ab846a2dea29acf6a35f, type: 3}
+  shootDelay: 1
+  spawnPoint: {fileID: 685440403}
+  canShoot: 1
 --- !u!1001 &8554944278740615637
 PrefabInstance:
   m_ObjectHideFlags: 0
